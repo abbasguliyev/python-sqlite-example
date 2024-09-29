@@ -1,4 +1,5 @@
 def print_menu(options):
+    # Bu funksiya menu-lar ucundur
     for id, option in enumerate(options, 1):
         print(f"{id}. {option}")
 
